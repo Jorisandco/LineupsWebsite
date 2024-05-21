@@ -1,10 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-:root{
+:root {
     --main-color: #505050;
     --second-color: #2c2c33;
     --third-color: #0e0d26;
+}
+
+.containerHpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Banner Banner Banner Banner Banner"
+        "Banner Banner Banner Banner Banner"
+        "pages pages pages pages pages"
+        "pages pages pages pages pages"
+        "pages pages pages pages pages";
+}
+
+.Banner {
+    grid-area: Banner;
+}
+
+.pages {
+    grid-area: pages;
 }

@@ -11,6 +11,9 @@ include "PHPFeatures/Connect.php"
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+<div class="containerHpage">
+  <div class="Banner"></div>
+  <div class="pages"></div>
+</div>
 </body>
 </html>
